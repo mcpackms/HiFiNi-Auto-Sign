@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	SignInURL         = "https://www.hifini.com/sg_sign.htm"
+	SignInURL         = "https://www.hifini.net/sg_sign.htm"
 	CookieEnvVariable = "COOKIE"
 	DingDingWebhook   = "DINGDING_WEBHOOK"
 )
