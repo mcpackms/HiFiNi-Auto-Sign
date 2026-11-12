@@ -21,5 +21,4 @@ jobs:
             - name: HIFINI 自动签到
               env:
                 COOKIE: ${{ secrets.COOKIE }}
-                DINGDING_WEBHOOK: ${{ secrets.DINGDING_WEBHOOK }}
               run: go run main.go
