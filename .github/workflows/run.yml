@@ -1,11 +1,12 @@
 name: HiFiNi 自动签到
- 
+
 on:
     push:
         branches:
             - master
     schedule:
         - cron: '30 18 * * *'
+    workflow_dispatch:   # ← 新增：允许手动触发
 
 jobs:
     build:
